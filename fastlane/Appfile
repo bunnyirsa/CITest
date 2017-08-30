@@ -1,0 +1,7 @@
+app_identifier "com.yingtu.CITest" # The bundle identifier of your app
+apple_id "srtongjitu@163.com" # Your Apple email address
+
+team_id "CU28772FD3"  # Developer Portal Team ID
+
+# you can even provide different app identifiers, Apple IDs and team names per lane:
+# More information: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Appfile.md
