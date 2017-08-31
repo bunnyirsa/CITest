@@ -27,17 +27,30 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeW-K5-tNO">
+                                <rect key="frame" x="157" y="379" width="61" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="61" id="iHs-vi-0vm"/>
+                                    <constraint firstAttribute="height" constant="54" id="yy9-uC-WqP"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changeColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7pj-7W-1Km"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.97254901959999995" green="0.79215686269999996" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.40620659718888891" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="OeW-K5-tNO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ogo-cA-Gih"/>
                             <constraint firstItem="uDX-w1-cZM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y8s-Pi-xZh"/>
                             <constraint firstItem="uDX-w1-cZM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZwQ-4t-ipk"/>
+                            <constraint firstItem="OeW-K5-tNO" firstAttribute="top" secondItem="uDX-w1-cZM" secondAttribute="bottom" constant="35" id="xx5-EI-927"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-214" y="118"/>
+            <point key="canvasLocation" x="-215.19999999999999" y="117.39130434782609"/>
         </scene>
     </scenes>
 </document>
