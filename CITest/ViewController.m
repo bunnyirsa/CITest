@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -21,6 +22,7 @@
 
 - (IBAction)changeColor:(id)sender {
     self.view.backgroundColor = [UIColor greenColor];
+    self.label.text = @"jenkins";
 }
 
 - (void)didReceiveMemoryWarning {

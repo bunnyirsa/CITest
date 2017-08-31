@@ -47,6 +47,9 @@
                             <constraint firstItem="OeW-K5-tNO" firstAttribute="top" secondItem="uDX-w1-cZM" secondAttribute="bottom" constant="35" id="xx5-EI-927"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="uDX-w1-cZM" id="tOF-T1-NeC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
