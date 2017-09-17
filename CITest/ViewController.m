@@ -22,7 +22,7 @@
 
 - (IBAction)changeColor:(id)sender {
     self.view.backgroundColor = [UIColor greenColor];
-    self.label.text = @"jenkins";
+    self.label.text = @"feature";
     
     NSLog(@"develop test");
 }
