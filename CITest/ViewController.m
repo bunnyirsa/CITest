@@ -22,9 +22,9 @@
 
 - (IBAction)changeColor:(id)sender {
     self.view.backgroundColor = [UIColor greenColor];
-    self.label.text = @"feature2";
+    self.label.text = @"feature222";
     
-    NSLog(@"feature2");
+    NSLog(@"feature222");
 }
 
 - (void)didReceiveMemoryWarning {
