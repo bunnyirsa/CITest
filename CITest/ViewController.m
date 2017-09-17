@@ -23,9 +23,9 @@
 - (IBAction)changeColor:(id)sender {
     self.view.backgroundColor = [UIColor greenColor];
 
-    self.label.text = @"feature1";
+    self.label.text = @"feature111";
     
-    NSLog(@"feature2");
+    NSLog(@"feature111");
 
 }
 
