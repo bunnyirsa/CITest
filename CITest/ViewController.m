@@ -24,7 +24,7 @@
     self.view.backgroundColor = [UIColor greenColor];
     self.label.text = @"jenkins";
     
-    NSLog(@"develop");
+    NSLog(@"develop test");
 }
 
 - (void)didReceiveMemoryWarning {
